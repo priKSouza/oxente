@@ -1,114 +1,131 @@
 body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   margin: 0px 0px 30px 0px;
-  background-color: black;
-  color: white;
+  background-color: white;
   text-align: center;
 }
 
+header {
+  background-image: url(./oxente/rp.jpg);
+  background-size: 100%;
+  width: 100%;
+  height: 73vh;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+
 .oxente {
-font-size: 60px;
-font-weight: 240;
-background: -webkit-linear-gradient(left, #FF0000, #FF8C00, #FFFF00, #008000, #0000FF, #000080, #8B008B);
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 60px;
+  font-weight: 240;
+  color: #fff;
+  font-family: "Monoton", cursive;
 }
 
-h2{
-color:#ffffff;
-font-size:35px;
+.titulo-principal {
+  color: #ffffff;
+  font-size: 35px;
+  font-family: "Caveat", cursive;
 }
 
-.titulo-pri{
-color:#FA8072;
+#priscila {
+  flex-direction: row-reverse;
 }
 
-.titulo-reis{
-color:#FA8072;
+.texto-pri,
+.texto-renata,
+.texto3 {
+  display: flex;
+  align-items: center;
+  margin: 30px;
 }
 
-.titulo-nos{
-color:#FA8072;
+.texto-pri,
+.texto-renata {
+  width: 50%;
+  text-align: justify;
 }
 
-footer{
-font-size:30px;
-color:#FA8072;
+#priscila,
+#renata {
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+  display: flex;
 }
 
-h3{
-font-size:22px;
-text-decoration:underline;
+.card-foto2,
+.card-foto3 {
+  width: 30%;
+  margin: auto;
+  border-radius: 0px 30px;
 }
 
-h4{
-font-size:25px;
-color:#ffffff;
+.card-juntas {
+  display: flex;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
-p{
-line-height:1.5;
-font-size:20px;
-font-family:Arial, Helvetica, sans-serif;
+.titulo-nos {
+  font-size: 22px;
+  text-decoration: underline;
 }
 
-img{
-width:100%;
-border:10px solid #ffffff;
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
-width:60%;
-margin:0 auto;
+#juntas {
+  padding: 10px;
+  margin: 20px;
 }
 
-section section{
-width:100%
+.foto1 {
+  width: 100%;
+  border: 5px solid brown;
+  margin: 5px;
 }
 
-ul{
-list-style-type:none;
-line-height:2;
-padding-left:0;
+.texto-rede-social {
+  font-size: 25px;
+  color: brown;
 }
 
-a{
-text-decoration:none;
-color:bisque;
-font-weight:700;
+nav img {
+  width: 20%;
 }
 
-.principal{
-background-color:#FA8072;
-height:40px;
-max-width:40%;
-margin:0 auto;
-font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+.redes-sociais {
+  display: flex;
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
 }
 
-.principal li{
-display:inline-block;
-line-height:2.5;
-margin:0 30px;
+.link {
+  display: block;
+  color: brown;
+  text-decoration: none;
+  font-weight: 700;
 }
 
-.principal a{
-color:rgb(2, 2, 2);
-text-decoration:underline;
-font-weight:normal;
+.link:hover {
+  color: #333333;
+  font-size: 20px;
 }
 
-h6{
-font-family: Arial, Helvetica, sans-serif;
-color:#ffffff;
+.rodape {
+  font-size: 20px;
+  color: brown;
+  letter-spacing: 5px;
 }
 
-section id-juntas{
-padding:10px;
-margin:20px;
-}
-
-.link:hover{
-color:#C71585;
+.texto-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
 }
